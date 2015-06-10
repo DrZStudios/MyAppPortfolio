@@ -1,10 +1,10 @@
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="#BBDEFB">
 
         <TextView
@@ -16,13 +16,14 @@
             android:layout_marginTop="16dp"
             android:textSize="@dimen/abc_text_size_headline_material"
             android:textColor="#000000"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
 
         <Button
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/spotify_stream"
-            android:id="@+id/button"
+            android:id="@+id/spot_btn"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:background="#2962FF"
@@ -36,7 +37,7 @@
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/scores_app"
-            android:id="@+id/button2"
+            android:id="@+id/score_btn"
             android:layout_gravity="center_horizontal"
             android:background="#2962FF"
             android:padding="5dp"
@@ -51,7 +52,7 @@
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/lib_app"
-            android:id="@+id/button3"
+            android:id="@+id/lib_btn"
             android:layout_gravity="center_horizontal"
             android:background="#2962FF"
             android:padding="5dp"
@@ -65,7 +66,7 @@
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/build_it_big"
-            android:id="@+id/button4"
+            android:id="@+id/build_btn"
             android:layout_gravity="center_horizontal"
             android:background="#2962FF"
             android:padding="10dp"
@@ -79,7 +80,7 @@
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/xyz_reader"
-            android:id="@+id/button5"
+            android:id="@+id/reader_btn"
             android:layout_gravity="center_horizontal"
             android:background="#2962FF"
             android:padding="15dp"
@@ -93,7 +94,7 @@
             android:layout_width="225dp"
             android:layout_height="0dp"
             android:text="@string/capstone_my"
-            android:id="@+id/button6"
+            android:id="@+id/capstone_btn"
             android:layout_gravity="center_horizontal"
             android:padding="16dp"
             android:layout_marginBottom="15dp"
